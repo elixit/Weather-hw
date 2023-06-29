@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">           
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashboard</title>
+ />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron container-fluid mt-2 text-center p-2" style="background-color:#404040 ;color: white;">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <div class="container">
+            <div class="col-sm-4 bg-light">
+                <h4 class="pt-1">Search for a City:</h4>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control"id="search-city" aria-label="City Search" aria-describedby="search-button">
+                    <div class="input-group-append">
+                        <button class=" btn" id="search-button"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <button class=" btn" type="button" id="clear-history">Clear history</button>
+                <ul class="list-group">
+
+                </ul>
+            </div>   
+            <div class="col-sm-8">
+                <div class=" border-dark rounded">
+                    <div class="col-sm-12" id="current-weather">
+                        <h3 class="city-name mb-1 mt-2 bolder" id="current-city"></h3>
+                        <p>Wind Speed:<span class="current" id="wind-speed"></span></p>  
+                        <p>Humidity:<span class="current" id="humidity"></span></p> 
+                        <p>Temperature:<span class="current" id="temperature"></span></p>
+                    </div>
+                </div>
+                <div class="col-sm-12" id ="future-weather">
+                    <h3>5-Day Forecast:</h3>
+                    <div class="row text-light">
+                        <div class="bg-primary forecast" >
+                            <p id="fDate0"></p>
+                            <p>Temp:<span id="fTemp0"></span></p>
+                            <p>Hty:<span id="fHumidity0"></span></p>
+                            <p>WS:<span id="wind-speed"></span></p>
+                        </div>
+                        <div class="bg-primary forecast" >
+                            <p id="fDate1"></p>
+                            <p>Temp:<span id="fTemp1"></span></p>
+                            <p>Hty:<span id="fHumidity1"></span></p>
+                            <p>WS:<span id="wind-speed"></span></p>
+                        </div>
+                        <div class="bg-primary forecast">
+                            <p id="fDate2"></p>
+                            <p>Temp:<span id="fTemp2"></span></p>
+                            <p>Hty:<span id="fHumidity2"></span></p>
+                            <p>WS:<span id="wind-speed"></span></p>
+                        </div>
+                        <div class="bg-primary forecast">
+                            <p id="fDate3"></p>
+                            <p>Temp:<span id="fTemp3"></span></p>
+                            <p>Hty:<span id="fHumidity3"></span></p>
+                            <p>WS:<span id="wind-speed"></span></p>
+                        </div>
+                        <div class="bg-primary forecast" >
+                            <p id="fDate4"></p>
+                            <p>Temp:<span id="fTemp4"></span></p>
+                            <p>Hty:<span id="fHumidity4"></span></p>
+                            <p>WS:<span id="fwind"></span></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+		<footer class="mt-5 p-3">
+		
+			<link
+				rel="stylesheet"
+				type="text/css"
+				href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+			/>
+			
+			>
+		</footer>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
