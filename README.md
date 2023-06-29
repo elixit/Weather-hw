@@ -11,9 +11,8 @@
 - 5 day weather forecast was used to retrieve data from cities [
 ](https://openweathermap.org/forecast5)
 - registered API key to connect to forecast
-- persistent data needed to be stored on local storage
-
-# Resources
+- persistent data made to be stored on local storage
+- parsed the array of objects to convert into JSON object with //https://stackoverflow.com/questions/42290571/get-json-stringify-value# Resources
 https://openweathermap.org
 [
 ](https://stackoverflow.com/questions/49383333/jquery-toggle-between-celsius-and-fahrenheit-bad-logic-from-my-side , used to help with temperature issues, I was having trouble with
