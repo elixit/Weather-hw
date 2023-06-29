@@ -39,11 +39,7 @@ https://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-wit
 <img width="1060" alt="Screen Shot 2023-06-29 at 5 52 09 PM" src="https://github.com/elixit/weather-hw/assets/63372291/ed4f9369-3463-4e85-a51e-a26e184980d0">
 
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
