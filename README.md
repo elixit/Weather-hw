@@ -1,7 +1,7 @@
 # weather-hw
 
 
-## The goal of this website is to display a 5 day future forecast, starting with the current date displayed at the top of the page. The forecast should display temperature, wind, and humidity. One of the features required is a search bar which allows the user to find their city's forecast. The cities that the user searches are stored in the local storage. The saved cities are displayed to the page. When the user clicks it, it shows that specific forecast. There is a clear history option.
+## The goal of this website is to display a 5 day future forecast, starting with the current date displayed at the top of the page. The forecast should display temperature, wind, and humidity. One of the features required is a search bar which allows the user to find their city's forecast. The cities that the user searches are stored in the local storage. The saved cities are displayed to the page. When the user clicks it, it shows that specific forecast. There is a "clear history" option.
 
 
 
@@ -11,18 +11,21 @@
 - 5 day weather forecast was used to retrieve data from cities [
 ](https://openweathermap.org/forecast5)
 - registered API key to connect to forecast
-- persistent data made to be stored on local storage
-- parsed the array of objects to convert into JSON object with //https://stackoverflow.com/questions/42290571/get-json-stringify-value# Resources
+- persistent data needed to be stored on local storage
+- - added temperatures to new date variable with  https://www.w3schools.com/js/js_dates.asp
+            var tempP= display.list[((i+1)*8)-1].main.temp;[
+## Resources
 https://openweathermap.org
 [
 ](https://stackoverflow.com/questions/49383333/jquery-toggle-between-celsius-and-fahrenheit-bad-logic-from-my-side , used to help with temperature issues, I was having trouble with
 
 https://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds)
 
-
-- [Installation](#installation)
+- added temperatures to new date variable with  https://www.w3schools.com/js/js_dates.asp
+            var tempP= display.list[((i+1)*8)-1].main.temp;[
+- [process](#process)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Credits](#resources)
 - [License](#license)
 
 ## Installation
@@ -49,7 +52,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT
 
 ---
 
