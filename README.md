@@ -36,8 +36,8 @@ script.js
 
 ## Screenshot
 
-
-
+[
+](https://elixit.github.io/weather-hw/)
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
