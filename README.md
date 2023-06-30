@@ -22,7 +22,7 @@ https://openweathermap.org
 https://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds)
 
 - added temperatures to new date variable with  https://www.w3schools.com/js/js_dates.asp
-            var tempP= display.list[((i+1)*8)-1].main.temp;[
+            ;[
 - [process](#process)
 - [installation](#installation)
 - [Credits](#resources)
